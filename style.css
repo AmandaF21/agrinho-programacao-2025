@@ -31,6 +31,17 @@ body {
   margin-bottom: 8px;
 }
 
+.sidebar ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.sidebar ul li a:hover {
+  color: #d0ffd0;
+}
+
 .content {
   flex: 1;
   padding: 30px;
@@ -57,4 +68,17 @@ h3 {
 .trilha {
   color: #8FC292;
   font-weight: bold;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 10px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
 }
