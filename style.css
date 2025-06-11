@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #222;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 200px;
+  background: linear-gradient(to bottom, #8FC292, #4F734F);
+  padding: 20px;
+  color: white;
+}
+
+.sidebar h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 8px;
+}
+
+.content {
+  flex: 1;
+  padding: 30px;
+}
+
+.content h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #2e4d2e;
+}
+
+.estado {
+  font-size: 24px;
+  color: #4F734F;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+h3 {
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.trilha {
+  color: #8FC292;
+  font-weight: bold;
+}
